@@ -2,7 +2,7 @@
 import './App.css'
 import Dashboard from './components/Dashboard'
 import Home from './components/Home'
-import Login from './components/login'
+import Login from './components/Login'
 import Employee  from './components/Employee'
 import {BrowserRouter , Routes , Route, useNavigate} from 'react-router-dom'
 import Category from './components/Category'
@@ -13,8 +13,7 @@ import EditEmployee from './components/EditEmployee'
 import Start from './components/Start'
 import EmployeeLogin from './components/EmployeeLogin'
 import EmployeeDetail from './components/EmployeeDetail'
-import { useEffect } from 'react'
-import axios from 'axios'
+
 import PrivateRoute from './components/PrivateRoute'
 
 function App() {
